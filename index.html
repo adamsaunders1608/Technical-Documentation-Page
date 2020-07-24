@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Technical Documentation Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Walkthrough guide to using HTML, useful for beginers and web developers looking to remind themselves of HTML code.
+    </title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    
+    <nav id="navbar">
+      <header><div id="HTML_Documentation">HTML Documentation</div></header>
+      <ul>
+        <li>
+          <a href="#Introduction_to_HTML" class="nav-link">Introduction to HTML</a> </li>
+        <li>
+          <a href="#A_Simple_HTML_Document" class="nav-link">A Simple HTML Document</a></li>
+        <li>
+          <a href="#HTML_Elements" class="nav-link">HTML Elements</a></li>
+         <li>
+          <a href="#HTML_Basic_Examples" class="nav-link">HTML Basic Examples</a></li>
+        <li>
+          <a href="#The_&lt;!DOCTYPE&gt;_Declaration" class="nav-link">The &lt;!DOCTYPE&gt; Declaration</a></li>
+        <li>
+          <a href="#HTML_Headings" class="nav-link">HTML Headings</a></li>
+        <li>
+          <a href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a></li>  
+        <li>
+          <a href="#HTML_Attributes" class="nav-link">HTML Attributes</a></li>
+        <li>
+          <a href="#HTML_Styles" class="nav-link">HTML Styles</a></li>
+        <li>
+          <a href="#The_HTML_Style_Attribute" class="nav-link">The HTML Style Attribute</a></li>
+        <li>
+          <a href="#Background_Color" class="nav-link">Background Color</a></li>
+        <li>
+          <a href="#Text_Color" class="nav-link">Text Color</a></li>
+        <li>
+          <a href="#Fonts" class="nav-link">Fonts</a></li>
+        <li>
+          <a href="#Text_Size" class="nav-link">Text Size</a></li>
+       <li>
+           <a href="#Text_Alignment" class="nav-link">Text Alignment</a></li>
+          <a href="#HTML_Text_Formatting" class="nav-link">HTML Text Formatting</a></li>
+        <li>
+          <a href="#HTML_Colors" class="nav-link">HTML Colors</a></li>
+      <li>
+        <a href="#Color_Names" class="nav-link">Color Names</a></li>
+        <li>
+          <a href="#Border_Color" class="nav-link">Border Color</a></li>
+        <li>
+          <a href="#Color_Values" class="nav-link">Color Values</a></li>
+ </ul>
+    </nav>
+    
+    
+    
+    <main id="main-doc">
+      <section class="main-section" id="Introduction_to_HTML">
+        <header class="headers" style="font-size:40px;"> 
+          Introduction to HTML
+        </header>
+      <p> HTML stands for Hyper Text Markup Language which is used as the standard markup language for creating web pages. It describes the structure of a web page and consists of a series of elements that tell the browser how to display the content. </p>
+      </section>
+        
+        <br>
+        
+        <section class="main-section" id="A_Simple_HTML_Document">
+        <header class="headers">
+        A Simple HTML Document
+        </header>
+        <br>
+        <b>Example</b>
+    
+          
+          <code style= "color:blue">
+        &lt;!DOCTYPE html&gt;
+         
+&lt;html&gt;          
+&lt;head&gt;          
+            &lt;title&gt;<strong style="color:white">Page Title</strong>&lt;/title&gt;     
+&lt;/head&gt;          
+&lt;body&gt;
+
+            &lt;h1&gt;<strong style="color:white">My First Heading</strong>&lt;/h1&gt;     
+            &lt;p&gt;<strong style="color:white">My first paragraph</strong>&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+          </code>
+          </div>
+
+        
+         <div id="html_example">
+        <b>Example Explained...</b>
+         <ul>
+          <li>The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document</li>
+<li>The &lt;html&gt; element is the root element of an HTML page</li>
+<li>The &lt;head&gt; element contains meta information about the HTML page</li>
+<li>The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+<li>The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+<li>The &lt;h1&gt; element defines a large heading</li>
+<li>The &lt;p&gt; element defines a paragraph</li> 
+</div>
+        </section>  
+          
+          <section class="main-section"  id="HTML_Elements">
+          <header class="headers">
+        HTML Elements
+        </header>
+        <p> A HTML element is defined by a start tag, the content and an end tag. Here's an example...</p>
+        
+          
+         <code style="color:blue">
+           &lt;h1&gt;<strong style="color:white">First Heading</strong>&lt;/h1&gt; 
+           &lt;h2&gt;<strong style=color:white>Second Heading</strong>&lt;/h2&gt;
+           &lt;p&gt;<strong style=color:white>paragraph</strong>&lt;/p&gt;
+      </code>
+          
+            
+        <p> There are a wide range of HTML elements that can be used, all with various different purposes. Usually you only need a handful to accomplish your project. Here are some of the most basic and common elements to get you started... </p>
+        
+        <table style="width:55%">
+          
+          <tr>
+            <td>&lt;!DOCTYPE&gt;</td>
+            <td>Defines the document type</td>
+          </tr>
+          <tr>
+            <td>&lt;html&gt;</td>
+            <td>Defines a HTML document</td>
+          </tr>
+          <tr>
+            <td>&lt;head&gt;</td>
+            <td>Contains metadata/information for the document</td>
+          </tr>
+          <tr>
+            <td>&lt;title&gt;</td>
+            <td>Defines a title for the document</td>
+          </tr>
+          <tr>
+            <td>&lt;body&gt;</td>
+            <td>Defines the document's body</td>
+          </tr>
+          <tr>
+            <td>&lt;h1&gt; to &lt;h6&gt;</td>
+            <td>Defines HTML headings</td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt;</td>
+            <td>Defines a paragraph</td>
+          </tr>
+          <tr>
+            <td>&lt;br&gt;</td>
+            <td>Inserts a single line break</td>
+        </table>
+        <br>
+        </section>
+        
+        <section class="main-section"  id="HTML_Basic_Examples">        
+        <header class="headers">
+        HTML Basic Examples
+        </header>
+          <br>
+        <b>HTML Documents</b>
+        
+        <ul>
+        <li>All HTML documents must start with a document type declaration: &lt;!DOCTYPE html&gt;.</li>
+
+<li>The HTML document itself begins with &lt;html&gt; and ends with &lt;/html&gt;.</li>
+
+<li>The visible part of the HTML document is between &lt;body&gt; and &lt;/body&gt;.</li>
+</ul>
+
+        <br>
+        <b>Example</b>
+        
+        
+        <code style="color:blue">
+          <div id="basic-example-code">
+        <!DOCTYPE html>
+        <html>
+        <body>
+        
+        <h1>My First Heading</h1>
+        <p>My first paragraph.</p>
+        
+        </body>
+        </html>
+        </div>
+          </code>
+          <br>
+          
+          <p><b>Example of Code</b></p>
+          
+          <code style="color:blue">
+          &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;body&gt;
+        
+            &lt;h1&gt;<strong style="color:white";>My First Heading</strong>&lt;/h1&gt;
+            &lt;p&gt;<strong style="color:white";>My first paragraph.</strong>&lt;/p&gt;
+        
+        &lt;/body&gt;
+        &lt;/html&gt;
+        
+          </code>
+            
+            
+        </section>
+        <br>
+        <section class="main-section" id="The_&lt;!DOCTYPE&gt;_Declaration">
+        <header class="headers">
+        The &lt;!DOCTYPE&gt; Declaration
+        </header>
+        
+        <ul>
+        <li>
+        The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers to display web pages correctly.
+        </li>
+        <li>
+        It must only appear once, at the top of the page (before any HTML tags).
+        </li>
+        <li>
+        The &lt;!DOCTYPE&gt; declaration is not case sensitive.
+        </li>
+        <li>
+        The &lt;!DOCTYPE&gt; declaration for HTML5 is:
+        </li>
+        </ul>
+        
+        <code style="color:blue">
+        &lt;!DOCTYPE html&gt;
+          </code>
+        </section>
+        <br>
+        <section class="main-section"  id="HTML_Headings">
+        <header class="headers">
+        HTML Headings
+        </header>
+        <ul>
+          <li>HTML headings are titles or subtitles that you want to display on a webpage.</li>
+        <li>
+        HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.
+        </li>
+        <li>
+        &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading:
+        </li>
+        </ul>
+        
+        <b>Example</b>
+        <br>
+        <code style="color:blue">
+          <div id="headings-example">
+        <!DOCTYPE html>
+<html>
+<body>
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+</body>
+</html>
+          </div>
+        </code>
+          <br>
+          <p><b>Example of Code</b></p>
+          <code style="color:blue">
+            <div id="headings-code-example">
+            <!DOCTYPE html>
+<html>
+<body>
+
+  &lt;h1&gt;<strong style="color:white">Heading 1</strong>&lt;/h1&gt;
+  &lt;h2&gt;<strong style="color:white">Heading 2</strong>&lt;/h2&gt;
+&lt;h3&gt;<strong style="color:white">Heading 3</strong>&lt;/h3&gt;
+  &lt;h4&gt;<strong style="color:white">Heading 4</strong>&lt;/h4&gt;
+  &lt;h5&gt;<strong style="color:white">Heading 5</strong>&lt;/h5&gt;
+  &lt;h6&gt;<strong style="color:white">Heading 6</strong>&lt;/h6&gt;
+
+</body>
+</html>
+            </div>
+          </code>   
+        </section>
+        
+        <section class="main-section"  id="HTML_Paragraphs">  
+<header class="headers">
+HTML Paragraphs
+</header>
+
+<p>
+HTML paragraphs are defined with the &lt;p&gt; tag:
+  </p>
+
+<b>Example</b>
+<br>
+
+<code style="color:blue">
+  &lt;p&gt;<strong style="color:white">This is a paragraph.</strong>&lt;/p&gt;
+  &lt;p&gt;<strong style="color:white">This is another paragraph.</strong>&lt;/p&gt;
+          </code>
+</section>
+
+<section class="main-section"  id="HTML_Attributes">  
+<header class="headers">
+        HTML Attributes
+            </header>
+        <p> All HTML elements can have attributes, which provide additional information about elements. They are always specified in the start tag and usually come in name/value pairs like name="value". </p>
+        
+        <br>
+        <p><b>The href Attribute</b></p>
+        
+        <p>The &lt;a&gt; tag defines a hyperlink. The <i>href</i> specifies the URL of the page the link goes to.</p>
+        
+        <br>
+        <p><b>The src Attribute</b></p>
+        
+        <p>The &lt;img&gt; tag is used to embed an image into a HTML page. The <i>src</i> attribute specifies the path to the image to be displayed.</p> 
+        
+        <br>
+        <p><b>The width and height Attributes</b></p>
+        <p>The &lt;img&gt; tag should also contain the <i>width</i> and <i>height</i> attributes, which specifies the width and height of the image in pixels</p>
+        
+        <br>
+        <p><b>The alt Attribute</b></p>
+        <p>The required <i>alt</i> attribute for the &lt;img&gt; specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the <i>src</i> attribute, or if the user uses a screen reader.</p>
+            </section>
+            <br>
+      
+            <section class="main-section"  id="HTML_Styles">
+            <header class="headers">
+        HTML Styles
+        </header>
+        <p>
+        The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+          </p>
+        
+        <b>Example</b>
+        <br>
+        <code>
+          <strong style="color:red">I am Red</strong>
+        
+          <strong style="color:blue">I am Blue</strong>
+        
+          <strong style="font-size:40px">I am Big</strong>
+              </code>
+        </section>
+        <br>
+      
+        <section class="main-section" id="The_HTML_Style_Attribute">
+        <header class="headers">
+        The HTML Style Attribute
+        </header>
+        
+        <ul>
+        <li>
+        Setting the style of an HTML element, can be done with the style attribute.
+        </li>
+        <li>
+        The HTML style attribute has the following syntax:
+        </li>
+        </ul>
+        
+        <code style="color:blue">
+        &lt;tagname style="property:value;"&gt;
+          </code>
+       
+       <p>The property is a CSS property. The value is a CSS value.</p>
+        </section>
+        <br>
+        <section class="main-section"  id="Background_Color">
+        <header class="headers">
+        Background Color
+        </header>
+        <p>The CSS background-color property defines the background color for an HTML element.</p>
+       
+        <b>Example</b>
+        <p>Set the background color for a page to powderblue:</p>
+        <br>
+          
+        <code style="background-color:powderblue">
+        
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+           
+        </body>
+        </code>
+      <br>
+      
+      <p><b>Example of Code</b></p>
+      <code style="color:blue">
+          &lt;body style="background-color:powderblue;"&gt;
+      </code>
+        </section>
+        <br>
+  
+        <section class="main-section"  id="Text_Color">
+        <header class="headers">
+        Text Color
+        </header>
+        <p>The CSS color property defines the text color for an HTML element:</p>
+        
+        <b>Example</b>
+        <br>
+        <code>
+        <h1 style="color:blue;">This is a heading</h1>
+        <p style="color:red;">This is a paragraph.</p>
+        </code>
+          
+          <br>
+          <p>Example of Code</p>
+          <code style="color:blue">
+            &lt;h1 style="color:blue;"&gt;<strong style="color:white">This is a heading</strong>&lt;/h1&gt;
+            &lt;p style="color:red;"&gt;<strong style="color:white">This is a paragraph.</strong>&lt;/p&gt;
+        </code>
+        </section>
+        <br>
+  
+        <section class="main-section"  id="Fonts">
+        <header class="headers">
+        Fonts
+        </header>
+        <p>The CSS font-family property defines the font to be used for an HTML element:</p>
+        
+        <b>Example</b>
+        <br>
+        <code>
+        <h1 style="font-family:verdana;">This is a heading</h1>
+        <p style="font-family:courier;">This is a paragraph.</p>
+        </code>
+          <br>
+          <p><b>Example of Code</b></p>
+          <code class="example-of-code" style="color:blue">
+            &lt;h1 style="font-family:verdana;"&gt;<strong style="color:white">This is a heading</strong>&lt;/h1&gt;
+            &lt;p style="font-family:courier;"&gt;<strong style="color:white">This is a paragraph.</strong>&lt;/p&gt;
+        </code>
+        </section>
+        <br>
+  
+        <section class="main-section"  id="Text_Size">
+        <header class="headers">
+        Text Size
+        </header>
+        <p>The CSS font-size property defines the text size for an HTML element:</p>
+        
+        <b>Example</b>
+        <br>
+        <code>
+        <h1 style="font-size:400%;">This is a heading</h1>
+        <p style="font-size:200%;">This is a paragraph.</p>
+        </code>
+          <br>
+          <p><b>Example of Code</b></p>
+          <code class="example-of-code" style="color:blue">
+            &lt;h1 style="font-size:400%;"&gt;<strong style="color:white">This is a heading</strong>&lt;/h1&gt;
+              &lt;p style="font-size:200%;"&gt;<strong style="color:white">This is a paragraph.</strong>&lt;/p&gt;
+              </code>
+        </section>
+        <br>
+  
+        <section class="main-section"  id="Text_Alignment">
+        <header class="headers">
+        Text Alignment
+        </header>
+        <p>The CSS text-align property defines the horizontal text alignment for an HTML element:</p>
+        
+        <b>Example</b>
+        <br>
+        <code>
+        <h1 style="text-align:center;">Centered Heading</h1>
+        <p style="text-align:center;">Centered paragraph.</p>
+        </code>
+          <br>
+          <p><b>Example of Code</b></p>
+          <code style="color:blue">
+            &lt;h1 style="text-align:center;"&gt;<strong style="color:white">Centered Heading</strong>&lt;/h1&gt;
+            &lt;p style="text-align:center;"&gt;<strong style="color:white">Centered paragraph.</strong>&lt;/p&gt;
+          </code>
+    </section>
+    <br>
+  
+    <section class="main-section"  id="HTML_Text_Formatting">
+    <header class="headers">
+    HTML Text Formatting
+    </header>
+    <p>HTML contains several elements for defining text with a special meaning.</p>
+    
+    <b>Example</b>
+    <br>
+    <code>
+      <b>This text is bold</b>
+    <i>This text is italics</i>
+      </code>
+    </section>
+    <br>
+  
+    <section class="main-section"  id="HTML_Colors">
+    <header class="headers">
+    HTML Colors
+    </header>
+    <p>HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.</p>
+    <br>
+    <section class="main-section"  id="Color_Names">
+    <header class="headers">
+    Color Names
+    </header>
+    <p>In HTML, a color can be specified by using a color name:</p>
+    <br>
+      
+      <div class="color-grid">
+      <div class="color-box" style="background-color:tomato;">Tomato</div>
+      <div class="color-box" style="background-color:orange;">Orange</div>
+      <div class="color-box" style="background-color:dodgerblue;">DodgerBlue</div>
+      <div class="color-box" style="background-color:mediumseagreen;">MediumSeaGreen</div>
+      <div class="color-box" style="background-color:gray;">Gray</div>
+      <div class="color-box" style="background-color:slateblue;">SlateBlue</div>  
+      <div class="color-box" style="background-color:violet;">Violet</div>
+      <div class="color-box" style="background-color:lightgray">LightGray</div>
+      </div>
+    
+    
+    <p>HTML supports 140 standard color names</p>
+      </section>
+   <br>
+      
+   <section class="main-section"  id="Border_Color">
+   <header class="headers">
+   Border Color
+   </header>
+   <p>You can set the color of the borders:</p>
+     
+   <div class="background-content">
+     <h1 style="border:2px solid Tomato";>Hello World!</h1>
+     <h1 style="border:2px solid DodgerBlue";>Hello World!</h1>
+     <h1 style="border:2px solid Violet";>Hello World!</h1>
+     </div>
+     
+   <b>Example of Code</b>
+   <br>
+   <code style="color:blue">
+     &lt;h1 style="border:2px solid Tomato;"&gt;<strong style="color:white">Hello World</strong>&lt;/h1&gt;
+     &lt;h1 style="border:2px solid DodgerBlue;"&gt;<strong style="color:white">Hello World</strong>&lt;/h1&gt;
+     &lt;h1 style="border:2px solid Violet;"&gt;<strong style="color:white">Hello World</strong>&lt;/h1&gt;
+   </code>
+   </section>
+   <br>
+      
+   <section class="main-section"  id="Color_Values">
+   <header class="headers">
+   Color Values
+    </header>
+    <p>In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.</p>
+    
+    <p>The following three elements have their background color set with RGB, HEX, and HSL values:</p>
+    
+     <div class="background-content">
+    <h1 style="background-color:rgb(255, 99, 71)";>Hello World!</h1>
+    
+    <h1 style="background-color:#ff6347";>Hello World!</h1>
+    
+    <h1 style="background-color:hsl(9, 100%, 64%)";>Hello World!</h1>
+     </div>
+    <br>
+     <b>Example of Code</b>
+     <code style="color:blue">
+       &lt;h1 style="background-color:rgb(255, 99, 71);"&gt;...&lt;/h1&gt;
+    &lt;h1 style="background-color:#ff6347;"&gt;...&lt;/h1&gt;
+    &lt;h1 style="background-color:hsl(9, 100%, 64%);"&gt;...&lt;/h1&gt;
+     </code>
+     
+    <p>The following two elements have their background color set with RGBA and HSLA values, which adds an Alpha channel to the color (here we have 50% transparancy):</p>
+    
+     <div class="background-content">
+    <h1 style="background-color:rgba(255, 99, 71, 0.5)";>Hello World!</h1>
+    
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5)";>Hello World!</h1>
+     </div>
+       
+     <br>
+    <b>Example of Code</b>
+    <code style="color:blue">
+    &lt;h1 style="background-color:rgba(255, 99, 71, 0.5);"&gt;...&lt;/h1&gt;
+    &lt;h1 style="background-color:hsla(9, 100%, 64%, 0.5);"&gt;...&lt;/h1&gt;
+    </code>
+    </section>
+    </main>
+  </body>
+<!-- partial -->
+  
+</body>
+</html>
